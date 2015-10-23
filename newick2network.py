@@ -6,14 +6,14 @@ Arguments:
   input_file    Newick tree file
   output_path   Destination dir for output (default: same dir as input)
 
-Created by Lev Morgan <lev.l.morgan@nutraspace.com> github.com/levmorgan"""
+Created by Lev Morgan github.com/levmorgan"""
 
 import re
 import os
 import sys
 import csv
 from docopt import docopt
-__author__ = 'Lev Morgan <lev.l.morgan@monsanto.com>'
+__author__ = 'Lev Morgan'
 
 class Newick2Network(object):
     def __init__(self, in_file_path, out_file_path):
